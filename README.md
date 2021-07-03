@@ -10,6 +10,13 @@ Hash Table Properties
 
 Note that Deletion and Searching in Hash Table also depends on Bucket Size.
 
+In Worst Case :
+
+Deletion : O(L)
+Search   : O(L) 
+
+where 'L' is the Length of Bucket
+
 Load Factor = (No of Elements/Capacity)
 
 Whenever LoadFactor reaches THRESHOLD (0.75) , Proper Rehashing need to be done!
